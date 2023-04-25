@@ -41,6 +41,10 @@ namespace Example_4
             ((IShape)cirObj).calcarea();
             ((IColour)cirObj).theshape();
 
+            Demo sqrObj = new Demo();
+            ((IShape)sqrObj).calcarea();
+            ((IColour)sqrObj).theshape();
+
             Console.ReadKey();
 
         }
