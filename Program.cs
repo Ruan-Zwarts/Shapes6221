@@ -36,7 +36,11 @@ namespace Example_4
             Demo recObj = new Demo();
             ((IShape)recObj).calcarea();
             ((IColour)recObj).theshape();
-            
+
+            Demo cirObj = new Demo();
+            ((IShape)cirObj).calcarea();
+            ((IColour)cirObj).theshape();
+
             Console.ReadKey();
 
         }
